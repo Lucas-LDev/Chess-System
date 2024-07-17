@@ -1,11 +1,12 @@
 package boardgame;
 
-public class Piece {
+public  abstract class Piece {
     protected Position position;
     private Board board;
 
     public Piece(Board board) {
         this.board = board;
+        position = null;
     }
 
     protected Board getBoard() {
@@ -14,9 +15,7 @@ public class Piece {
 
     //Especial methods
 
-    public boolean[][] possibleMoves() {
-        return null;
-    }
+    public abstract boolean[][] possibleMoves();
 
     public boolean possibleMove(Position position) {
         return possibleMoves()[position.getRow()][position.getColumn()];
