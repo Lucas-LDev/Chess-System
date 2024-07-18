@@ -20,7 +20,7 @@ public class Pawn extends ChessPiece {
     }
 
 
-    //Especial methods
+    //Special methods
 
     @Override
     public boolean[][] possibleMoves() {

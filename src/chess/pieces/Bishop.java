@@ -15,7 +15,7 @@ public class Bishop extends ChessPiece {
         return "B";
     }
 
-    //Especial methods
+    //Special methods
 
     @Override
     public boolean[][] possibleMoves() {

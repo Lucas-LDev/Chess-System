@@ -24,7 +24,7 @@ public class Board {
         return columns;
     }
 
-    //Especial methods
+    //Special methods
 
     public Piece piece(int row, int column) {
         if (!positionExists(row, column)) {

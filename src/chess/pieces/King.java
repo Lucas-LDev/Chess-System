@@ -19,7 +19,7 @@ public class King extends ChessPiece {
         return "K";
     }
 
-    //Especial methods
+    //Special methods
 
     private boolean canMove(Position position) {
         ChessPiece p = (ChessPiece) getBoard().piece(position);
@@ -85,9 +85,9 @@ public class King extends ChessPiece {
             mat[p.getRow()][p.getColumn()] = true;
         }
 
-        //Especial move castling
+        //Special move castling
         if (getMoveCount() == 0 && !chessMatch.getCheck()) {
-            //Especial move castling | Kingside rook
+            //Special move castling | Kingside rook
             Position posT1 = new Position(position.getRow(), position.getColumn() + 3);
             if (testRookCastling(posT1)) {
                 Position p1 = new Position(position.getRow(), position.getColumn() + 1);
@@ -97,7 +97,7 @@ public class King extends ChessPiece {
                 }
             }
 
-            //Especial move castling | Queenside rook
+            //Special move castling | Queenside rook
             Position posT2 = new Position(position.getRow(), position.getColumn() - 4);
             if (testRookCastling(posT2)) {
                 Position p1 = new Position(position.getRow(), position.getColumn() - 1);

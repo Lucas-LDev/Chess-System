@@ -16,7 +16,7 @@ public class Queen extends ChessPiece {
         return "Q";
     }
 
-    //Especial methods
+    //Special methods
 
     @Override
     public boolean[][] possibleMoves() {

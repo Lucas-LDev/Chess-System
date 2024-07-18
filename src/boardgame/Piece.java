@@ -13,7 +13,7 @@ public  abstract class Piece {
         return board;
     }
 
-    //Especial methods
+    //Special methods
 
     public abstract boolean[][] possibleMoves();
 

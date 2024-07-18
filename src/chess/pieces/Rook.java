@@ -16,7 +16,7 @@ public class Rook extends ChessPiece {
         return "R";
     }
 
-    //Especial methods
+    //Special methods
 
     @Override
     public boolean[][] possibleMoves() {

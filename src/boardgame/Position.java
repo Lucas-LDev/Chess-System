@@ -30,7 +30,7 @@ public class Position {
         return row + ", " + column;
     }
 
-    //Especial methods
+    //Special methods
 
     public void setValues(int row, int column) {
         this.row = row;
