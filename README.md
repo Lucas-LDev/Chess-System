@@ -18,7 +18,10 @@ Chess game system project in Java, based on the Udemy course ["Java COMPLETO: Ob
 ![Uml classes model](https://github.com/Lucas-LDev/Chess-System/blob/main/images/chess-system-design.png?raw=true)
 
 **Preview:**
+
 ![Chess Game System Preview](https://github.com/Lucas-LDev/Chess-System/blob/main/images/chess-system-preview.png?raw=true)
+
+
 **⚠️ Attention:** Black pieces have been represented with yellow due to the terminal's background color.
 
 ## How to run the project on your machine
@@ -76,7 +79,10 @@ Projeto de sistema de jogo de xadrez em Java, baseado no curso da Udemy ["Java C
 ![Uml classes model](https://github.com/Lucas-LDev/Chess-System/blob/main/images/chess-system-design.png?raw=true)
 
 **Preview:**
+
 ![Prévia do Sistema de Jogo de Xadrez](https://github.com/Lucas-LDev/Chess-System/blob/main/images/chess-system-preview.png?raw=true)
+
+
 **⚠️ Atenção:** as peças de cor preta foram representadas com a cor amarela por conta da cor de fundo do terminal.
 
 ## Como rodar o projeto na sua máquina
